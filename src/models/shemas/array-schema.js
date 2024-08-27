@@ -32,3 +32,4 @@ class ArraySchema extends BaseSchema {
 }
 
 export default ArraySchema;
+export { ArraySchema };

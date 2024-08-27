@@ -41,3 +41,4 @@ class StringSchema extends BaseSchema {
 }
 
 export default StringSchema;
+export { StringSchema };

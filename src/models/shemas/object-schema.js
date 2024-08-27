@@ -25,3 +25,4 @@ class ObjectSchema extends BaseSchema {
 }
 
 export default ObjectSchema;
+export { ObjectSchema };

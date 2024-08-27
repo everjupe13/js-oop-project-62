@@ -1,4 +1,4 @@
-import { BaseSchema } from './BaseSchema.js';
+import { BaseSchema } from './base-schema.js';
 
 class ObjectSchema extends BaseSchema {
   constructor() {

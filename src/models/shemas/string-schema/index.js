@@ -1,4 +1,4 @@
-import { BaseSchema } from './base-schema.js';
+import { BaseSchema } from '../base-schema/index.js';
 
 class StringSchema extends BaseSchema {
   required() {

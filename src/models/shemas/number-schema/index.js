@@ -1,4 +1,4 @@
-import { BaseSchema } from './base-schema.js';
+import { BaseSchema } from '../base-schema/index.js';
 
 class NumberSchema extends BaseSchema {
   required() {

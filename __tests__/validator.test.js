@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Validator } from '../src/models/validator.js';
+import { Validator } from '../src/models/validator/index.js';
 
 describe('StringSchema', () => {
   it('should validate strings with no rules applied', () => {

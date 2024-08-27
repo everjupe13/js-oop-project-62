@@ -3,7 +3,7 @@ import NumberSchema from './shemas/NumberSchema.js';
 import ArraySchema from './shemas/ArraySchema.js';
 import ObjectSchema from './shemas/ObjectSchema.js';
 
-export default class Validator {
+class Validator {
   constructor() {
     this.validators = {
       string: {},
@@ -44,3 +44,6 @@ export default class Validator {
     this.validators[type][name] = fn;
   }
 }
+
+export { Validator };
+export default Validator;

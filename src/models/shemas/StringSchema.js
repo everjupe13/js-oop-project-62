@@ -1,6 +1,6 @@
 import { BaseSchema } from './BaseSchema.js';
 
-export default class StringSchema extends BaseSchema {
+class StringSchema extends BaseSchema {
   required() {
     super.createRule(
       'required',
@@ -39,3 +39,6 @@ export default class StringSchema extends BaseSchema {
     return this;
   }
 }
+
+export { StringSchema };
+export default StringSchema;

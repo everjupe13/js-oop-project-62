@@ -1,6 +1,6 @@
 import { BaseSchema } from './BaseSchema.js';
 
-export default class ObjectSchema extends BaseSchema {
+class ObjectSchema extends BaseSchema {
   constructor() {
     super();
     this.shapeSchema = {};
@@ -23,3 +23,6 @@ export default class ObjectSchema extends BaseSchema {
     return Object.entries(this.shapeSchema).every(([key, schema]) => schema.isValid(value[key]));
   }
 }
+
+export { ObjectSchema };
+export default ObjectSchema;

@@ -1,4 +1,4 @@
-export default class BaseSchema {
+class BaseSchema {
   constructor() {
     this.rules = [];
   }
@@ -18,3 +18,6 @@ export default class BaseSchema {
     return this.rules.every((rule) => rule.validate(value));
   }
 }
+
+export { BaseSchema };
+export default BaseSchema;

@@ -31,11 +31,5 @@
   },
   "engines": {
     "node": ">=14"
-  },
-  "simple-git-hooks": {
-    "pre-push": "npx lint-staged"
-  },
-  "lint-staged": {
-    "*.js": "eslint --fix"
   }
 }

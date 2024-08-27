@@ -1,2 +1,4 @@
 // @ts-check
-export { Validator as default } from './src/models/Validator.js';
+import Validator from './src/models/Validator.js';
+
+export default Validator;

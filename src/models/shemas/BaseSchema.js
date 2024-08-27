@@ -1,4 +1,4 @@
-export class BaseSchema {
+export default class BaseSchema {
   constructor() {
     this.rules = [];
   }

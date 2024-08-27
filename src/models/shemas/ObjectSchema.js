@@ -1,6 +1,6 @@
 import { BaseSchema } from './BaseSchema.js';
 
-export class ObjectSchema extends BaseSchema {
+export default class ObjectSchema extends BaseSchema {
   constructor() {
     super();
     this.shapeSchema = {};

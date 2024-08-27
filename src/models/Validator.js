@@ -1,9 +1,9 @@
-import { StringSchema } from './shemas/StringSchema.js';
-import { NumberSchema } from './shemas/NumberSchema.js';
-import { ArraySchema } from './shemas/ArraySchema.js';
-import { ObjectSchema } from './shemas/ObjectSchema.js';
+import StringSchema from './shemas/StringSchema.js';
+import NumberSchema from './shemas/NumberSchema.js';
+import ArraySchema from './shemas/ArraySchema.js';
+import ObjectSchema from './shemas/ObjectSchema.js';
 
-export class Validator {
+export default class Validator {
   constructor() {
     this.validators = {
       string: {},

@@ -1,6 +1,6 @@
 import { BaseSchema } from './BaseSchema.js';
 
-export class ArraySchema extends BaseSchema {
+export default class ArraySchema extends BaseSchema {
   required() {
     super.createRule(
       'required',

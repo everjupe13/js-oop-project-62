@@ -1,7 +1,7 @@
-import StringSchema from '../shemas/string-schema/index.js';
-import NumberSchema from '../shemas/number-schema/index.js';
-import ArraySchema from '../shemas/array-schema/index.js';
-import ObjectSchema from '../shemas/object-schema/index.js';
+import { StringSchema } from '../shemas/string-schema/index.js';
+import { NumberSchema } from '../shemas/number-schema/index.js';
+import { ArraySchema } from '../shemas/array-schema/index.js';
+import { ObjectSchema } from '../shemas/object-schema/index.js';
 
 class Validator {
   constructor() {

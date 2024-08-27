@@ -46,4 +46,4 @@ class Validator {
 }
 
 export default Validator;
-export { Validator as ValidatorClass };
+export { Validator };

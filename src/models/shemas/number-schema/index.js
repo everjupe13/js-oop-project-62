@@ -41,4 +41,4 @@ class NumberSchema extends BaseSchema {
 }
 
 export default NumberSchema;
-export { NumberSchema as NumberSchemaClass };
+export { NumberSchema };

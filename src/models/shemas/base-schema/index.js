@@ -20,4 +20,4 @@ class BaseSchema {
 }
 
 export default BaseSchema;
-export { BaseSchema as BaseSchemaClass };
+export { BaseSchema };

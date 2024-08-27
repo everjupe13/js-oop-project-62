@@ -24,5 +24,4 @@ class ObjectSchema extends BaseSchema {
   }
 }
 
-export { ObjectSchema };
 export default ObjectSchema;

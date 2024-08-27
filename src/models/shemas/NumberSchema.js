@@ -40,5 +40,4 @@ class NumberSchema extends BaseSchema {
   }
 }
 
-export { NumberSchema };
 export default NumberSchema;

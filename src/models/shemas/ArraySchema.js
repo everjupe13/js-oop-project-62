@@ -31,5 +31,4 @@ class ArraySchema extends BaseSchema {
   }
 }
 
-export { ArraySchema };
 export default ArraySchema;
